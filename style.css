@@ -1,5 +1,5 @@
 body {
-  margin-left: 70px;
+  margin-left: 50px;
   margin-top: 50px;
   margin-right: 70px
 }
@@ -11,7 +11,7 @@ body {
   text-align: center;
   font-size: 20px;
   margin: 5px 2px;
-  transition-duration: 0.5s;
+  transition-duration: 0.3s;
   cursor: grab;
   border-radius: 25px;
   font-family: monospace;
@@ -40,5 +40,35 @@ h2 {
   color: white;
 }
 .headerU {
+  margin-left: 40px;
   margin-top: 50px;  
+}
+.navigation {
+  background-color: lightgrey;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: none solid solid;
+  display: flex;
+  justify-content: left;
+}
+.button1 {
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  font-size: 20px;
+  margin: 5px 2px;
+  transition-duration: 0.3s;
+  cursor: grab;
+  border-radius: 8px;
+  font-family: monospace;
+  font-weight: bold;
+}
+.button1:hover {
+  background-color: dimgrey;
+  color: white;
+}
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
 }
